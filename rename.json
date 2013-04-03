@@ -1,0 +1,3 @@
+{
+  "_posts/first-post.md": "_posts/{%= grunt.template.today( 'yyyy-mm-dd' ) %}-first-post.md"
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+
+    <meta charset="utf-8">
+    <meta name="author" content="{%= author_name %}{%= author_url ? ' - ' + author_url : '' %}">
+
+    <link rel="shortcut icon" href="/media/images/favicon.ico">
+    <link rel="stylesheet" href="/media/css/main.css">
+
+    <title>{%= title || name %} &bull; {%= author_name %}</title>
+
+    <body>
+        <h1>{%= title || name %}</h1>
+        <p>{%= description %}</p>
+        {{ content }}
+    </body>
+
+</html>
