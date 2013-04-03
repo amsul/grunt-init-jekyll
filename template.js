@@ -73,11 +73,6 @@ exports.template = function( grunt, init, done ) {
             // Create the `package.json` file.
             init.writePackageJSON( 'package.json', props )
 
-            // Create the `jquery.json` file.
-            if ( props.jquery_version ) {
-                init.writePackageJSON( props.name + '.jquery.json', props )
-            }
-
             // Aaand we're done!
             done()
         }
